@@ -7,12 +7,13 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    height: 98vh;
 }
 
 main {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to bottom, #77CFF2, #5B6C73);
+    background-image: linear-gradient(to bottom, #839CA6, #599BB5);
 }
 
 section#login {
