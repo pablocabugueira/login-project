@@ -1,2 +1,86 @@
 @charset "UTF-8";
 
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #1F5673, #112F40);
+}
+
+section#login {
+    width: 60%;
+    padding-top: 100px;
+    margin: auto;
+}
+
+div#login-image {
+    background-image: url(../images/login-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+div#form {
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+}
+
+div#form > h1{
+    text-align: center;
+    font-size: 1.6em;
+    padding: 10px;
+}
+
+div#form > p {
+    padding: 0px 10px;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+form {
+    padding: 10px;
+}
+
+span {
+    vertical-align: middle;
+    color: white;
+}
+
+div#email {
+    background-color: #1F5673;
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin-bottom: 5px;
+}
+
+input#iemail {
+    vertical-align: middle;
+    border-radius: 5px;
+    height: 27px;
+    width: 189px;
+    border: 0px;
+}
+
+div#password {
+    background-color: #1F5673;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+
+input#ipassword {
+    vertical-align: middle;
+    border-radius: 5px;
+    height: 27px;
+    width: 189px;
+    border: 0px;
+}

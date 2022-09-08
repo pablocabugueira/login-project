@@ -7,19 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="styles/mobile.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
     <main>
         <section id="login">
             <div id="login-image">
-                foto
+                
             </div>
             <div id="form">
                 <h1>Login</h1>
-                <p>Seja bem-vindo, faça login para acessar sua conta!</p>
+                <p>Seja bem-vindo(a). Faça login para acessar sua conta!</p>
                 <form action="login.php" method="post">
-                    
+                    <div id="email">
+                        <label for="iemail"><span class="material-icons">person</span></label>
+                        <input type="email" name="email" id="iemail" placeholder=" seu email">
+                    </div>
+                    <div id="password">
+                        <label for="ipassword"><span class="material-icons">vpn_key</span></label>
+                        <input type="password" name="password" id="ipassword" placeholder=" sua senha">
+                    </div>
                 </form>
             </div>
         </section>
