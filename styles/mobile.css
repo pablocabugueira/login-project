@@ -12,7 +12,7 @@ body {
 main {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to bottom, #839CA6, #599BB5);
+    background-image: linear-gradient(to bottom, #225D6E, #4ACCF0);
 }
 
 section#login {
@@ -57,7 +57,7 @@ span {
 }
 
 div#email {
-    background-color: #2d6c83;
+    background-color: #0292BA;
     border-radius: 5px;
     padding: 3px 5px;
     margin-bottom: 5px;
@@ -72,7 +72,7 @@ input#iemail {
 }
 
 div#password {
-    background-color: #2d6c83;
+    background-color: #0292BA;
     border-radius: 5px;
     padding: 3px 5px;
     margin-bottom: 5px;
@@ -89,7 +89,7 @@ input#ipassword {
 input#entrar {
     width: 100%;
     height: 35px;
-    background-color: #2d6c83;
+    background-color: #225D6E;
     border-radius: 5px;
     padding: 3px 5px;
     border: 0px;
