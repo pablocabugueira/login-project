@@ -6,9 +6,9 @@
     box-sizing: border-box;
 }
 
-/* TABLET */
+/* Medium devices */
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     section {
         display: flex;
 
@@ -34,5 +34,26 @@
 
     input#ipassword {
         width: 88%;
+    }
+}
+
+/* Large and extra larges devices */
+
+@media only screen and (min-width: 992px) {
+    section {
+        flex-direction: row-reverse;
+
+        height: 400px;
+    }
+
+    div#login-image {
+        border-radius: 0px 15px 15px 0px;
+
+        height: 300px;
+        width: 600px;
+    }
+
+    div#form {
+        border-radius: 15px 0px 0px 15px;
     }
 }
