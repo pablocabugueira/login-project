@@ -16,7 +16,7 @@ main {
 }
 
 section#login {
-    width: 60%;
+    width: 80%;
     padding-top: 100px;
     margin: auto;
 }
@@ -67,7 +67,7 @@ input#iemail {
     vertical-align: middle;
     border-radius: 5px;
     height: 27px;
-    width: 189px;
+    width: 86%;
     border: 0px;
 }
 
@@ -82,7 +82,7 @@ input#ipassword {
     vertical-align: middle;
     border-radius: 5px;
     height: 27px;
-    width: 189px;
+    width: 86%;
     border: 0px;
 }
 
