@@ -9,5 +9,27 @@
 /* TABLET */
 
 @media screen and (min-width: 768px) {
-    
+    section {
+        display: flex;
+    }
+
+    div#login-image {
+        height: 300px;
+
+        border-radius: 15px 0px 0px 15px;
+    }
+
+    div#form {
+        border-radius: 0px 15px 15px 0px;
+
+        width: 95vw;
+    }
+
+    input#iemail {
+        width: 88%;
+    }
+
+    input#ipassword {
+        width: 88%;
+    }
 }
